@@ -217,10 +217,12 @@
 </main>
 
 <script>
-// The War Cove Newsroom rotation — the same matched headline ↔ ad pairs the
-// Day Brief room's monitor plays, in rotation order (read off the room's own
-// getNewsPairs, Nov 15, 2026). Print and ad advance together: the pair rotates
-// when its ad ends.
+// The War Cove Newsroom rotation — matched headline ↔ ad pairs, in rotation
+// order. The first nine pairs mirror the Day Brief room's monitor (read off
+// the room's own getNewsPairs, Nov 15, 2026); the eight Margex poster pairs
+// after them were added to this standalone page on the Warlord's direct
+// order, Nov 16, 2026. Print and ad advance together: the pair rotates when
+// its ad ends.
 const PAIRS = [
   { headline: "Binance Been Hacked",
     details: "The first War Cove Crypto News Alert: the best thing for you to do is store your own crypto on your own cold wallet.",
@@ -257,7 +259,39 @@ const PAIRS = [
   { headline: "War Cove Paper Game — The Official Promo",
     details: "The official dramatic promo for the War Cove Paper Game: Sheity presents the game, its board living inside the stream's own screens. The cut the Warlord approved on Nov 13, 2026 — it rides this rotation as a promo, not a news story.",
     adTitle: "Paper Game Promo — Dramatic (Sheity)",
-    ad: "ads/news-promo-paper-game-dramatic.mp4" }
+    ad: "ads/news-promo-paper-game-dramatic.mp4" },
+  { headline: "Witching Hour Trade — LTC Short +173.49%",
+    details: "The Witching Hour trade, off his Margex poster: Sell 100x LTCUSD, open $51.30, marked $50.41 — +173.49%.",
+    adTitle: "Margex — Witching Hour Short +173.49%",
+    ad: "ads/news-ad-margex-witching-hour-short-173.mp4" },
+  { headline: "Long the Bottom — LTC +521.7%",
+    details: "Off his Margex poster: Buy 100x LTCUSD, open $49.07, marked $51.63 — +521.7%.",
+    adTitle: "Margex — Long the Bottom +521.7%",
+    ad: "ads/news-ad-margex-long-bottom-521.mp4" },
+  { headline: "The Dump — LTC Short +350.1%",
+    details: "Off his Margex poster: Sell 100x LTCUSD, open $49.70, marked $47.96 — +350.1%.",
+    adTitle: "Margex — The Dump +350.1%",
+    ad: "ads/news-ad-margex-the-dump-350.mp4" },
+  { headline: "Bottom Long — LTC +203.87%",
+    details: "Off his Margex poster: Buy 100x LTCUSD, open $47.58, marked $48.55 — +203.87%.",
+    adTitle: "Margex — Bottom Long +203.87%",
+    ad: "ads/news-ad-margex-bottom-long-203.mp4" },
+  { headline: "Bottom Long — The Updated Trade +401.43%",
+    details: "The updated trade, off his Margex poster: Buy 100x LTCUSD, open $47.58, marked $49.49 — +401.43%.",
+    adTitle: "Margex — Bottom Long +401.43%",
+    ad: "ads/news-ad-margex-bottom-long-401.mp4" },
+  { headline: "Top of the AM Pump — Short +205.65%",
+    details: "His mark: the top of the AM pump. Off his Margex poster: Sell 100x LTCUSD, open $49.60, marked $48.58 — +205.65%.",
+    adTitle: "Margex — AM Pump Top Short +205.65%",
+    ad: "ads/news-ad-margex-am-pump-short-205.mp4" },
+  { headline: "Started From the Bottom — Now We Here +425.43%",
+    details: "His line: 'Started from the bottom now we here.' Off his Margex poster: Buy 100x LTCUSD, open $43.25, marked $45.09 — +425.43%.",
+    adTitle: "Margex — Bottom Long +425.43%",
+    ad: "ads/news-ad-margex-bottom-long-425.mp4" },
+  { headline: "Witching Hour Bottom Long — +267.14%",
+    details: "Off his Margex poster: Buy 100x LTCUSD, open $48.29, marked $49.58 — +267.14%.",
+    adTitle: "Margex — Witching Hour Bottom Long +267.14%",
+    ad: "ads/news-ad-margex-witching-hour-bottom-long-267.mp4" }
 ];
 
 const video    = document.getElementById('ad');
