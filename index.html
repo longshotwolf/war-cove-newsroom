@@ -223,8 +223,13 @@
 // after them were added to this standalone page on the Warlord's direct
 // order, Nov 16, 2026. The three-piece promo pair after the paper-game
 // promo was added to this standalone page on the Warlord's direct order,
-// Nov 17, 2026. Print and ad advance together: the pair rotates when
-// its ad ends.
+// Nov 17, 2026. The two study promos after the three-piece (Wall Street /
+// Coin Bureau study, and Saylor / never-sell study) were added on the
+// Warlord's direct order, Nov 19, 2026 — regular builds, no generation
+// spend. The Cocrypto temp-bottom ad at the end of the list was added
+// on the Warlord's direct order, Nov 19, 2026, the file running
+// exactly as it came from him. Print and ad advance together: the
+// pair rotates when its ad ends.
 const PAIRS = [
   { headline: "Binance Been Hacked",
     details: "The first War Cove Crypto News Alert: the best thing for you to do is store your own crypto on your own cold wallet.",
@@ -266,6 +271,14 @@ const PAIRS = [
     details: "The three pieces of the Cove in one cut: the Day Brief, the Day Brief Stock Board, and the War Cove Paper Game. It rides this rotation as a promo, not a news story.",
     adTitle: "Three-Piece Promo — Day Brief · Stock Board · Paper Game",
     ad: "ads/news-promo-three-piece.mp4" },
+  { headline: "Wall Street Is Building the Market That Never Closes",
+    details: "Off the Coin Bureau study the Warlord ordered into the rotation: Wall Street is racing to build 24/7 markets with instant settlement. The War Cove already lives in that world — candles read live around the clock, every call graded in the open. It rides this rotation as a promo, not a news story.",
+    adTitle: "Wall Street — They're Building What We Already Run",
+    ad: "ads/news-promo-wall-street-never-closes.mp4" },
+  { headline: "Never Sell — Until He Sold",
+    details: "Off the Saylor study the Warlord ordered: the man who posted 'sell a kidney if you must, but keep the Bitcoin' — then his company sold (first sale reported June 2026). The Cove doesn't trade on slogans: long the bottom, short the top, every call graded in the open. It rides this rotation as a promo, not a news story.",
+    adTitle: "Saylor — Never Sell, Until He Sold",
+    ad: "ads/news-promo-saylor-never-sell.mp4" },
   { headline: "Witching Hour Trade — LTC Short +173.49%",
     details: "The Witching Hour trade, off his Margex poster: Sell 100x LTCUSD, open $51.30, marked $50.41 — +173.49%.",
     adTitle: "Margex — Witching Hour Short +173.49%",
@@ -297,7 +310,11 @@ const PAIRS = [
   { headline: "Witching Hour Bottom Long — +267.14%",
     details: "Off his Margex poster: Buy 100x LTCUSD, open $48.29, marked $49.58 — +267.14%.",
     adTitle: "Margex — Witching Hour Bottom Long +267.14%",
-    ad: "ads/news-ad-margex-witching-hour-bottom-long-267.mp4" }
+    ad: "ads/news-ad-margex-witching-hour-bottom-long-267.mp4" },
+  { headline: "Temp Bottom on the 1 Hour",
+    details: "The ad the Warlord took from Cocrypto and ordered straight into this rotation, Nov 19, 2026 — the temp bottom read on the 1 Hour, running exactly as it came in. It rides this rotation as a promo, not a news story.",
+    adTitle: "Cocrypto — Temp Bottom on the 1 Hour",
+    ad: "ads/news-ad-cocrypto-temp-bottom-1h.mp4" }
 ];
 
 const video    = document.getElementById('ad');
